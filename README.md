@@ -21,6 +21,7 @@ Here is a table representation of ```Books.csv```
 
 
 Here are some commands to play with:
+
 prerequisite: Python >3.0
 
 ```bash
