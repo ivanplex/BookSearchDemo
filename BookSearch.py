@@ -31,6 +31,8 @@ class BookEdition:
 		return self.rating
 
 	def get_relavance(self):
+		# Introducing a slight bias assuming the user prefers books
+		# in English. 
 		r = 0
 		if(self.language == "English"):
 			r+=1
@@ -123,9 +125,6 @@ bookLibrary[hbpbook] = hbpArray
 poabook = Book("Harry Potter and the Prisoner of Azkaban", "J.K Rowling")
 bookLibrary[poabook] = poaArray
 
-#bookLibrary.append(Book("Harry Potter and the Prisoner of Azkaban", "J.K Rowling"))
-
-# print(bookLibrary)
 try:
 	search_term = sys.argv[1]
 	search_term = search_term.lower() #lower case
