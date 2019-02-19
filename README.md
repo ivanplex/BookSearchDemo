@@ -25,11 +25,11 @@ Here are some commands to play with:
 prerequisite: Python >3.0
 
 ```bash
-python BookSearch.py "Harry"
-python BookSearch.py "half-blood price"
-python BookSearch.py "Azkaban"
-python BookSearch.py "J.K Rowling"
+python BookFilter.py "Harry"
+python BookFilter.py "half-blood price"
+python BookFilter.py "Azkaban"
+python BookFilter.py "J.K Rowling"
 
 # Try differnet language (in Ukrainian)
-python BookSearch.py "Harri Potter"
+python BookFilter.py "Harri Potter"
 ```
